@@ -471,10 +471,10 @@ html {
 }
 /* - Blog title and description - */
 .blog-title {
-  font-size: 36px;
-  line-height: 36px;
+  font-size: 32pt;
+  line-height: 36pt;
   text-transform: uppercase;
-  margin-bottom: 12px;
+  margin: 12px;
 }
 .blog-title span {
   display: block;
@@ -3866,7 +3866,7 @@ a#slide:hover{
     }
 
 a#slide:after{
-    content:"F"
+    content:"-"
     }
 
 a#slide.slide:after{

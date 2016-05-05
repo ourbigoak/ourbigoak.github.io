@@ -1,20 +1,5 @@
 <!DOCTYPE html>
 <html>
-<!--
-====================================================
-    __  ____  ______________  _______ ___    __ 
-   / / / /  |/  / ____/   \ \/ / ___//   |  / / 
-  / /_/ / /|_/ / /_  / /| |\  /\__ \/ /| | / /  
- / __  / /  / / __/ / ___ |/ /___/ / ___ |/ /___
-/_/ /_/_/  /_/_/   /_/  |_/_//____/_/  |_/_____/
-                                                     
-====================================================
-Owner Name: Hossain Mohammad Faysal
-Profile: https://www.facebook.com/hmfaysal
-Version: 1.1
-Description: Awesome dude, awesome life
-====================================================
--->
 <head>
 {% include head.html %}
 </head>
@@ -51,7 +36,7 @@ Description: Awesome dude, awesome life
         <div class="container">
             <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
 
-                {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %}
+                {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" class="img-circle" />{% endif %}
 
             <h1 class="blog-title light" itemprop="name">
                 {{ site.title }}
