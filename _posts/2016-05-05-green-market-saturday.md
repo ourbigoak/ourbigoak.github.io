@@ -12,7 +12,7 @@ published: true
 share: true
 ---
 
-We're excited to have our first real day at the market this coming Saturday, May 7th. We'll have a wide variety of fresh baked goods, including:
+We're excited to have our first big day at the market this coming Saturday, May 7th. We'll have a wide variety of fresh baked goods, including:
 
  * Sourdough whole wheat boules
  * Dark Rye loaves
@@ -20,4 +20,4 @@ We're excited to have our first real day at the market this coming Saturday, May
  * Rye crackers
  * Cinnamon rolls and cinnamon raisin bread
 
-Hope to see you at the downtown Milledgeville market pavilion between 9am and noon this Saturday!
+Hope to see you at the downtown Milledgeville market pavilion between 9am and noon on Saturday!
