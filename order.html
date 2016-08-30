@@ -5,18 +5,14 @@ description: "Order Our Bread Online"
 permalink: /order/index.html
 image:
   feature: "baguettes and rye above.jpg"
-closed: false
+closed: true
 vacation: false
 ---
 
 <h2 class="post-title text-center">{{ page.description }}</h2>
 <p class="cursive text-center">We bring fresh bread to downtown Milledgeville on Wednesdays</p>
-<h3 class="text-center lighter">Order today and pick up Wednesday 3-6pm at Blackbird Coffee</h3>
-
-<div class="row">
-  {% if page.closed %}
-    <div class="col-md-12">
-      <h3>
+{% if page.closed %}
+      <h3 class="text-center" style="margin-top: 20px">
         {% if page.vacation %}
           We're taking this week off, please check back next week when our bread will be fresh again!
         {% else %}
@@ -24,7 +20,10 @@ vacation: false
         {% endif %}
       </h3>
     </div>
-  {% else %}
+{% else %}
+<h3 class="text-center lighter">Order today and pick up Wednesday 3-6pm at Blackbird Coffee</h3>
+
+<div class="row">
   <div class="col-md-10 col-md-offset-0">
     <div id="my-search-10033231"></div>
     <div>
@@ -45,6 +44,6 @@ vacation: false
       <script type="text/javascript"> xMinicart("layout=attachToCategories", "id=my-cart-10033231"); </script>
     </div>
   </div>  
-  {% endif %}
 </div>
 
+{% endif %}
