@@ -5,45 +5,36 @@ description: "Order Our Bread Online"
 permalink: /order/index.html
 image:
   feature: "baguettes and rye above.jpg"
-closed: true
+closed: false
 vacation: true
 ---
 
 <h2 class="post-title text-center">{{ page.description }}</h2>
-<p class="cursive text-center">We bring fresh bread to downtown Milledgeville on Tuesdays</p>
+<p class="cursive text-center">We bring fresh bread to downtown Milledgeville weekly</p>
 {% if page.closed %}
       <h3 class="text-center" style="margin-top: 20px">
         {% if page.vacation %}
           We're taking this week off, please check back next week when our bread will be fresh again!
         {% else %}
-          Cutoff for this week has passed, please check back Thursday to order for next week!
+          Cutoff for this week has passed, please check back over the weekend to order for next week!
         {% endif %}
       </h3>
     </div>
 {% else %}
-<h3 class="text-center lighter">Order today and pick up Tuesday 2pm-6pm</h3>
+<h3 class="text-center lighter">Order today and pick up Thursday 12pm-4pm</h3>
+
+<p>Luke the baker here, I'm making bread and pastries most weeks this fall, freshly baked for pickup Thursday afternoons.
+<p>Thanks to Donna at The Market Collective in downtown (124 N Wayne St, Milledgeville, GA) for graciously offering a space for you to pickup your order when it's fresh out of the oven. Place your order, pay by credit card, I'll send you an email to remind you to come pick it up on Thursday, enjoy your bread. That's it!
 
 <div class="row">
   <div class="col-md-10 col-md-offset-0">
-    <div id="my-search-10033231"></div>
-    <div>
-      <script type="text/javascript" src="https://app.ecwid.com/script.js?10033231&data_platform=code&data_date=2016-08-21" charset="utf-8"></script>
-      <script type="text/javascript"> xSearch("id=my-search-10033231"); </script>
-    </div>
-
     <div id="my-store-10033231"></div>
     <div>
-      <script type="text/javascript" src="https://app.ecwid.com/script.js?10033231&data_platform=code&data_date=2016-08-21" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(3,4) list(16) table(20)","categoryView=grid","searchView=list","id=my-store-10033231");</script>
+      <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?10033231&data_platform=code&data_date=2021-09-02" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-10033231");</script>
     </div>
   </div>
-  <div class="col-md-2 text-center">
-    <div id="my-cart-10033231"></div>
-    <div>
-      <script type="text/javascript" src="https://app.ecwid.com/script.js?10033231&data_platform=code&data_date=2016-08-21" charset="utf-8"></script>
-      <!-- remove layout parameter if you want to position minicart yourself -->
-      <script type="text/javascript"> xMinicart("layout=attachToCategories", "id=my-cart-10033231"); </script>
-    </div>
-  </div>  
 </div>
+
+<p>Our Big Oak Ltd. Co. is a Licensed Cottage Foods Operation not subject to State Food Safety Inspections. That means I'm making all of this out of our home kitchen in Baldwin County, according with suitable safe food handling practices, but limited in what we can sell and who we can sell to. If you'd like to place a custom or large order, please email me: luke (at) ourbigoak.com
 
 {% endif %}
