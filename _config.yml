@@ -20,7 +20,7 @@ fin_color:        "255,255,255"
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
 url:
 
-public_url: http://www.ourbigoak.com
+public_url: https://www.ourbigoak.com
 
 plugins: [jekyll-paginate]
 
