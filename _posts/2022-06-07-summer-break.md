@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Summer Break
+title: Summer Baking
 description: "See you in July"
 categories: News
 tags: [milly, ordering]
@@ -11,6 +11,6 @@ published: true
 share: true
 ---
 
-<p class="text-center">Thanks for a good start to 2022, we'll return to baking in July.
+<p class="text-center">Now taking orders for fresh bread every week, starting July 30th.
 
-<p class="text-center"><a href="/subscribe" class="text-center more-link btn btn-danger btn-large">Signup for a weekly email when we're back
+<a href="/order" class="more-link btn btn-danger btn-large">Order now...</a>
