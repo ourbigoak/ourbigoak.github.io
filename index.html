@@ -1,7 +1,62 @@
 ---
 layout: home
-title: Welcome
 ---
+      <div class="row bordered-bottom">
+        <section class="col-md-3 col-md-offset-1">
+          <div class="card">
+            <div class="card-img-top">
+              <img src="/images/foccaciax.jpg">
+            </div>
+            <p class="card-title cursive">Find Us Weekly
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a href="/subscribe">Signup for our email newsletter for weekly details</a>
+                <li class="list-group-item">
+                  and to know when we'll be at farmers markets around the area
+                <li class="list-group-item">
+                  Follow us on <a href="https://www.instagram.com/{{site.owner.instagram}}">Instagram</a> or <a href="http://facebook.com/{{ site.owner.facebook }}">Facebook</a>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="col-md-4">
+            <div class="card-img-top">
+              <a href="/order"><img src="/images/tartsx.jpg"></a>
+            </div>
+            <p class="card-title cursive">
+              <a href="/order">Order Online &#9755;</a>
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Just about every <a href="/order">Thursday for pickup</a> in Milledgeville
+            </div>
+        </section>
+        <section class="col-md-3">
+            <div class="card-img-top">
+              <img src="/images/pastriesx.jpg">
+            </div>
+            <p class="card-title cursive">Local Food
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a href="/news/2022/01/organic-ingredients">
+                    Hear more about our Organic and Local ingredients
+                  </a>
+                <li class="list-group-item">
+                  <a href="/news/2022/05/milly-free-fridge">
+                    Supporting Milly Free Fridge, and how you can too
+                  </a>
+                <li class="list-group-item">
+                  and come say hello to Luke the Baker for all the details!
+              </ul>
+            </div>
+        </section>
+      </div>
+      <div class="row">
+      </div>
+
+
 {% if site.paginate %}
 	{% for post in paginator.posts %}
 		{% if site.wpm %}
